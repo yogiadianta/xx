@@ -1,0 +1,17 @@
+How to Run aplication
+
+Database :
+1. Pada Sql server klick kanan Database, Pilih Import Data Tier Application
+2. Browse File Emerio.bacpac di Folder Database
+3. Ganti Database Name ( atau pakai EmerioTest)
+4. Next dan Finnish
+
+Aplikasi :
+1. Buka project di Visual Studio atau double klik EmerioTest.sln
+2. Open Server Explorer, klick kanan Data Connection, pilih Add Connection
+3. Pilih SQL server
+4. Isi server name local atau . untuk menampilkan nama database
+5. Pilih database EmerioTest dan test connection
+6. Klik kanan server yang muncul di bawah data connection dan pilih properties
+7. di properties copy isi Connection String dan ganti connectionString yang ada di NasabahController.cs dan TransaksiController.cs
+8. Run Aplikasi
